@@ -13,6 +13,11 @@
 		15AD720F2A3463530068AEAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AD720E2A3463530068AEAC /* Preview Assets.xcassets */; };
 		15AD72382A3471540068AEAC /* TiltPrism-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15AD72372A3471540068AEAC /* TiltPrism-Regular.ttf */; };
 		15AD723A2A3476F30068AEAC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD72392A3476F30068AEAC /* InfoView.swift */; };
+		15AD723F2A34790C0068AEAC /* DiceRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD723E2A34790C0068AEAC /* DiceRole.swift */; };
+		15AD72422A3485EB0068AEAC /* HackerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD72412A3485EB0068AEAC /* HackerNew.swift */; };
+		15AD72452A3487EF0068AEAC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD72442A3487EF0068AEAC /* NetworkManager.swift */; };
+		15AD72472A34890D0068AEAC /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD72462A34890D0068AEAC /* PostData.swift */; };
+		15AD72492A348EE10068AEAC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD72482A348EE10068AEAC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		15AD72362A3470A30068AEAC /* I-Am-Rich-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "I-Am-Rich-Info.plist"; sourceTree = SOURCE_ROOT; };
 		15AD72372A3471540068AEAC /* TiltPrism-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiltPrism-Regular.ttf"; sourceTree = "<group>"; };
 		15AD72392A3476F30068AEAC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		15AD723E2A34790C0068AEAC /* DiceRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRole.swift; sourceTree = "<group>"; };
+		15AD72412A3485EB0068AEAC /* HackerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNew.swift; sourceTree = "<group>"; };
+		15AD72442A3487EF0068AEAC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		15AD72462A34890D0068AEAC /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		15AD72482A348EE10068AEAC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,12 @@
 		15AD72062A3463500068AEAC /* I Am Rich */ = {
 			isa = PBXGroup;
 			children = (
+				15AD723B2A3478880068AEAC /* view */,
 				15AD72362A3470A30068AEAC /* I-Am-Rich-Info.plist */,
 				15AD72152A346EA50068AEAC /* fonts */,
 				15AD72072A3463500068AEAC /* I_Am_RichApp.swift */,
-				15AD72092A3463500068AEAC /* ContentView.swift */,
 				15AD720B2A3463530068AEAC /* Assets.xcassets */,
 				15AD720D2A3463530068AEAC /* Preview Content */,
-				15AD72392A3476F30068AEAC /* InfoView.swift */,
 			);
 			path = "I Am Rich";
 			sourceTree = "<group>";
@@ -81,6 +90,52 @@
 				15AD72372A3471540068AEAC /* TiltPrism-Regular.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		15AD723B2A3478880068AEAC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				15AD72432A3487E20068AEAC /* Models */,
+				15AD72402A3485DC0068AEAC /* HikerNew */,
+				15AD723D2A3478F20068AEAC /* DiceRole */,
+				15AD723C2A3478D30068AEAC /* Card */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		15AD723C2A3478D30068AEAC /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				15AD72392A3476F30068AEAC /* InfoView.swift */,
+				15AD72092A3463500068AEAC /* ContentView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		15AD723D2A3478F20068AEAC /* DiceRole */ = {
+			isa = PBXGroup;
+			children = (
+				15AD723E2A34790C0068AEAC /* DiceRole.swift */,
+			);
+			path = DiceRole;
+			sourceTree = "<group>";
+		};
+		15AD72402A3485DC0068AEAC /* HikerNew */ = {
+			isa = PBXGroup;
+			children = (
+				15AD72412A3485EB0068AEAC /* HackerNew.swift */,
+			);
+			path = HikerNew;
+			sourceTree = "<group>";
+		};
+		15AD72432A3487E20068AEAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15AD72442A3487EF0068AEAC /* NetworkManager.swift */,
+				15AD72462A34890D0068AEAC /* PostData.swift */,
+				15AD72482A348EE10068AEAC /* DetailView.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15AD72452A3487EF0068AEAC /* NetworkManager.swift in Sources */,
+				15AD72492A348EE10068AEAC /* DetailView.swift in Sources */,
+				15AD723F2A34790C0068AEAC /* DiceRole.swift in Sources */,
 				15AD720A2A3463500068AEAC /* ContentView.swift in Sources */,
 				15AD723A2A3476F30068AEAC /* InfoView.swift in Sources */,
+				15AD72422A3485EB0068AEAC /* HackerNew.swift in Sources */,
+				15AD72472A34890D0068AEAC /* PostData.swift in Sources */,
 				15AD72082A3463500068AEAC /* I_Am_RichApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +360,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DucNguyen.I-Am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,6 +392,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DucNguyen.I-Am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
